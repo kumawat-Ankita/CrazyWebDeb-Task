@@ -1,0 +1,44 @@
+.list-item {
+  display: flex;
+  list-style-type: none;
+  gap: 22px;
+  border: solid brown 1px;
+  border-radius: 20px;
+  width: 380px;
+  height: 40px;
+  color: black;
+  text-decoration: none;
+}
+.item:hover {
+  color: brown;
+  cursor: pointer;
+  font-weight: bold;
+}
+.item {
+  text-decoration: none;
+  text-align: center;
+  padding-left: 2px;
+  padding-top: 5px;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  color: white;
+  border-radius: 40px;
+  background-color: brown;
+  border: none;
+  width: 80px;
+  font-size: 20px;
+  font-family: "Arial, sans-serif";
+  margin-right: 20px;
+  margin-top: 10px;
+  height: 40px;
+}
+.heading {
+  color: brown;
+  font-family: "Cursive";
+  font-size: 30px;
+  margin-top: 10px;
+}
