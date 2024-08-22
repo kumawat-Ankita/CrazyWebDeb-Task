@@ -3,17 +3,18 @@ import './navbar.css';
 export default function Navbar() {
     return (
         <div className='navbar-container'>
-            <div className='head-container'>
-                <p className='heading'>LE MANOA</p>
-            </div>
-            <ul className='list-item'>
-                <li className='item'>Home</li>
-                <li className='item'>About</li>
-                <li className='item'>Product</li>
-                <li className='item'>Blog</li>
-                <li className='item'>Contact</li>
+
+            <ul>
+                <p className='logo'>Startups.com</p>
+                <li>EDUCATION</li>
+                <li>COMMUNITY</li>
+                <li>LIBRARY</li>
+                <li>PRODUCT</li>
+                <li>ABOUT</li>
+                <li className='sign'>Sign in</li>
+                <li className='sign'>Sign up</li>
             </ul>
-            <button className='btn'>Shop</button>
+
         </div>
     )
 }

@@ -1,44 +1,32 @@
-.list-item {
-  display: flex;
+div {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+ul {
   list-style-type: none;
-  gap: 22px;
-  border: solid brown 1px;
-  border-radius: 20px;
-  width: 380px;
-  height: 40px;
-  color: black;
-  text-decoration: none;
-}
-.item:hover {
-  color: brown;
-  cursor: pointer;
-  font-weight: bold;
-}
-.item {
-  text-decoration: none;
-  text-align: center;
-  padding-left: 2px;
-  padding-top: 5px;
-}
-.navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
+  color: rgb(148, 148, 148);
+  font-size: small;
+  font-weight: bold;
+  align-items: center;
 }
-.btn {
+.logo {
   color: white;
-  border-radius: 40px;
-  background-color: brown;
-  border: none;
-  width: 80px;
-  font-size: 20px;
-  font-family: "Arial, sans-serif";
-  margin-right: 20px;
-  margin-top: 10px;
-  height: 40px;
+  background-color: rgb(220, 35, 35);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: larger;
 }
-.heading {
-  color: brown;
-  font-family: "Cursive";
-  font-size: 30px;
-  margin-top: 10px;
+.sign {
+  color: rgb(107, 107, 138);
+  border: solid 3px rgb(107, 107, 138);
+  border-radius: 20px;
+  padding: 10px;
+}
+.sign:hover {
+  background-color: rgb(107, 107, 138);
+  color: white;
 }
